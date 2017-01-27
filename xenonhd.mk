@@ -14,8 +14,6 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-WITH_SUPERSU := true
-
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=dadi11
 
 # Use the latest approved GMS identifiers unless running a signed build
