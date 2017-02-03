@@ -562,9 +562,6 @@ bin/consumerird
 lib64/hw/consumerir.msm8952.so
 lib/hw/consumerir.msm8952.so
 
-# Display calibration data
-etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml
-
 # DPM - from Mi Max
 bin/dpmd|845e7a704770e5c2362dea8056238ff265fbe867
 etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
