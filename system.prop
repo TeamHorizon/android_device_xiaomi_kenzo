@@ -9,11 +9,6 @@ persist.audio.fluence.voicerec=true
 voice.voip.conc.disabled=true
 audio.parser.ip.buffer.size=0
 
-# Camera
-media.camera.ts.monotonic=1
-persist.camera.HAL3.enabled=1
-camera.lowpower.record.enable=1
-
 # Radio
 persist.radio.cs_srv_type=1
 persist.radio.force_on_dc=true
