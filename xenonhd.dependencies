@@ -12,6 +12,6 @@
   {
     "repository": "TeamHorizon/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "n"
+    "branch": "n-kenzo"
   }
 ]
