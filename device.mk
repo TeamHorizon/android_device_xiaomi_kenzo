@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
 
+# Dalvik-Hack
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc
