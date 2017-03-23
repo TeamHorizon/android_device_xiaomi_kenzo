@@ -1,0 +1,13 @@
+#!/system/bin/sh
+# Move dalvik-cache to cache partition By: JoseGalRe
+
+if [ ! -d /cache/dalvik-cache ]; then
+    rm -rf /cache/dalvik-cache
+    mkdir /cache/dalvik-cache
+fi
+
+chown system:system /cache/dalvik-cache
+chmod 0771 /cache/dalvik-cache
+mount -o bind /cache/dalvik-cache /data/dalvik-cache
+chown system:system /data/dalvik-cache
+chmod 0771 /data/dalvik-cache
