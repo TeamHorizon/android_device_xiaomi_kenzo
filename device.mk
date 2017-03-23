@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
 
+# Boot Cleaner
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/etc/init.d/81clean:system/etc/init.d/81clean
+
 # Dalvik-Hack
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik

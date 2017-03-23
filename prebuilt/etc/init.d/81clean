@@ -1,0 +1,32 @@
+#!/system/bin/sh
+: '
+ ================ Copyright (C) 2014 PAC-Roms Project ================
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ =====================================================================
+'
+
+find /data/data -type d -iname "*cache*" -mindepth 2 -maxdepth 2 -exec rm -rf {} \;
+rm -f /cache/recovery/*
+rm -f /data/backup/pending/*
+rm -f /data/cache/*.*
+rm -f /data/local/tmp/*.*
+rm -f /data/log/*.*
+rm -f /data/mlog/*
+rm -r /data/system/appusagestats/*
+rm -f /data/system/dropbox/*
+rm -f /data/system/usagestats/*
+rm -f /data/tombstones/*
+rm -rf /storage/*/LOST.DIR
