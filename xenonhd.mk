@@ -18,6 +18,11 @@ PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=dadi11
 
 ROOT_METHOD=magisk
 
+PRODUCT_PACKAGES += \
+    Adaway \
+    KernelAdiutor \
+    MiXplorer
+
 # Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
