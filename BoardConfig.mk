@@ -19,8 +19,9 @@
 
 DEVICE_PATH := device/xiaomi/kenzo
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := kenzo,kate
+# Assertions
+TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
+TARGET_OTA_ASSERT_DEVICE := kate,kenzo
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
