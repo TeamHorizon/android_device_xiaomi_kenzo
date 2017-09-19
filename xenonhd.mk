@@ -33,6 +33,13 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer=Khanfrd
 
+ROOT_METHOD=magisk
+
+PRODUCT_PACKAGES += \
+    AdAway \
+    KernelAdiutor \
+    MiXplorer
+
 # Use the latest approved GMS identifiers unless running a signed build
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-keys \
